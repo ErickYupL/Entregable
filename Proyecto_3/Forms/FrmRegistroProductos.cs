@@ -17,16 +17,16 @@ using Entidad.Models;
 
 namespace Presentacion.Forms
 {
-    public partial class FrmProductos : Form
+    public partial class FrmRegistroProductos : Form
     {
         private readonly ProductoNegocio _productoNegocio = new ProductoNegocio();
 
-        public FrmProductos()
+        public FrmRegistroProductos()
         {
             InitializeComponent();
         }
 
-        private void FrmProductos_Load(object sender, EventArgs e)
+        private void FrmRegistroProductos_Load(object sender, EventArgs e)
         {
             CargarProductos();
         }

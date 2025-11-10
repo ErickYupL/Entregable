@@ -7,7 +7,7 @@ using Entidad.Models;
 
 namespace Presentacion.Forms
 {
-    public partial class FrmVentas : Form
+    public partial class FrmRegistroVentas : Form
     {
         private readonly Usuario _usuario;
         private readonly ClienteNegocio _clienteNegocio = new ClienteNegocio();
@@ -15,13 +15,13 @@ namespace Presentacion.Forms
         private readonly VentaNegocio _ventaNegocio = new VentaNegocio();
         private List<DetalleVenta> _detallesVenta = new List<DetalleVenta>();
 
-        public FrmVentas(Usuario usuario)
+        public FrmRegistroVentas(Usuario usuario)
         {
             InitializeComponent();
             _usuario = usuario;
         }
 
-        private void FrmVentas_Load(object sender, EventArgs e)
+        private void FrmRegistroVentas_Load(object sender, EventArgs e)
         {
             CargarClientes();
             CargarProductos();

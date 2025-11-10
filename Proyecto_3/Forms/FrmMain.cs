@@ -33,17 +33,17 @@ namespace Presentacion.Forms
 
         private void btnClientes_Click(object sender, EventArgs e)
         {
-            new FrmClientes().ShowDialog();
+            new FrmRegistroClientes().ShowDialog();
         }
 
         private void btnProductos_Click(object sender, EventArgs e)
         {
-            new FrmProductos().ShowDialog();
+            new FrmRegistroProductos().ShowDialog();
         }
 
         private void btnVentas_Click(object sender, EventArgs e)
         {
-            new FrmVentas(_usuario).ShowDialog();
+            new FrmRegistroVentas(_usuario).ShowDialog();
         }
 
         private void btnReportes_Click(object sender, EventArgs e)
@@ -61,7 +61,7 @@ namespace Presentacion.Forms
             }
 
             // Abrir formulario de gestión de usuarios
-            FrmUsuarios frmUsuarios = new FrmUsuarios();
+            FrmRegistroUsuarios frmUsuarios = new FrmRegistroUsuarios();
             frmUsuarios.ShowDialog();
         }
 

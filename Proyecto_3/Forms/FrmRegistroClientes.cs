@@ -9,16 +9,16 @@ using Entidad.Models;
 
 namespace Presentacion.Forms
 {
-    public partial class FrmClientes : Form
+    public partial class FrmRegistroClientes : Form
     {
         private readonly ClienteNegocio _clienteNegocio = new ClienteNegocio();
 
-        public FrmClientes()
+        public FrmRegistroClientes()
         {
             InitializeComponent();
         }
 
-        private void FrmClientes_Load(object sender, EventArgs e)
+        private void FrmRegistroClientes_Load(object sender, EventArgs e)
         {
             CargarClientes();
         }

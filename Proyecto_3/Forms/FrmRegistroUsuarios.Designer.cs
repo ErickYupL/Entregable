@@ -1,6 +1,6 @@
 ﻿namespace Presentacion.Forms
 {
-    partial class FrmUsuarios
+    partial class FrmRegistroUsuarios
     {
         private System.ComponentModel.IContainer components = null;
         private Label lblTitulo;
@@ -141,7 +141,7 @@
             Name = "FrmUsuarios";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Gestión de Usuarios";
-            Load += FrmUsuarios_Load;
+            Load += FrmRegistroUsuarios_Load;
             ((System.ComponentModel.ISupportInitialize)dgvUsuarios).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxFoto).EndInit();
             ResumeLayout(false);

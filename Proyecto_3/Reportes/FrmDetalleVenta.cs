@@ -13,18 +13,18 @@ using Negocio.Servicios;
 
 namespace Presentacion.Forms
 {
-    public partial class FrmReporteVenta : Form
+    public partial class FrmDetalleVenta : Form
     {
         private readonly ReporteNegocio _reporteNegocio = new ReporteNegocio();
         private readonly int _ventaId;
 
-        public FrmReporteVenta(int ventaId)
+        public FrmDetalleVenta(int ventaId)
         {
             InitializeComponent();
             _ventaId = ventaId;
         }
 
-        private void FrmReporteVenta_Load(object sender, EventArgs e)
+        private void FrmDetalleVenta_Load(object sender, EventArgs e)
         {
             CargarDetalleVenta();
         }

@@ -1,6 +1,6 @@
 ﻿namespace Presentacion.Forms
 {
-    partial class FrmProductos
+    partial class FrmRegistroProductos
     {
         private System.ComponentModel.IContainer components = null;
         private Label lblTitulo;
@@ -150,7 +150,7 @@
             Name = "FrmProductos";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Gestión de Productos";
-            Load += FrmProductos_Load;
+            Load += FrmRegistroProductos_Load;
 
             ((System.ComponentModel.ISupportInitialize)dgvProductos).EndInit();
             ((System.ComponentModel.ISupportInitialize)numStock).EndInit();

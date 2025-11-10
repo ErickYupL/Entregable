@@ -1,6 +1,6 @@
 ﻿namespace Presentacion.Forms
 {
-    partial class FrmReporteVenta
+    partial class FrmDetalleVenta
     {
         private System.ComponentModel.IContainer components = null;
         private Label lblTitulo;
@@ -78,7 +78,7 @@
             Name = "FrmReporteVenta";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Detalle de Venta";
-            Load += FrmReporteVenta_Load;
+            Load += FrmDetalleVenta_Load;
 
             ((System.ComponentModel.ISupportInitialize)dgvDetalle).EndInit();
             ResumeLayout(false);

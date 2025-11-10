@@ -1,6 +1,6 @@
 ﻿namespace Presentacion.Forms
 {
-    partial class FrmClientes
+    partial class FrmRegistroClientes
     {
         private System.ComponentModel.IContainer components = null;
         private Label lblTitulo;
@@ -214,7 +214,7 @@
             Name = "FrmClientes";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Gestión de Clientes";
-            Load += FrmClientes_Load;
+            Load += FrmRegistroClientes_Load;
             ((System.ComponentModel.ISupportInitialize)pbFoto).EndInit();
             ((System.ComponentModel.ISupportInitialize)dgvClientes).EndInit();
             ResumeLayout(false);

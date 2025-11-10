@@ -13,17 +13,17 @@ using Negocio.Seguridad;
 
 namespace Presentacion.Forms
 {
-    public partial class FrmUsuarios : Form
+    public partial class FrmRegistroUsuarios : Form
     {
         private readonly UsuarioNegocio _usuarioNegocio = new UsuarioNegocio();
         private byte[]? fotoPerfil; // Para guardar la foto seleccionada
 
-        public FrmUsuarios()
+        public FrmRegistroUsuarios()
         {
             InitializeComponent();
         }
 
-        private void FrmUsuarios_Load(object sender, EventArgs e)
+        private void FrmRegistroUsuarios_Load(object sender, EventArgs e)
         {
             CargarUsuarios();
             CargarRoles();

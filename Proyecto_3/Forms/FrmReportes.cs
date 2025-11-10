@@ -60,7 +60,7 @@ namespace Presentacion.Forms
             }
 
             int ventaId = Convert.ToInt32(dgvReportes.CurrentRow.Cells["VentaId"].Value);
-            FrmReporteVenta frm = new FrmReporteVenta(ventaId);
+            FrmDetalleVenta frm = new FrmDetalleVenta(ventaId);
             frm.ShowDialog();
         }
     }
